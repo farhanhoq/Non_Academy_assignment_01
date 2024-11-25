@@ -47,10 +47,15 @@
     height: 40px;
     font-size: 12px;
     border: none;
-    background-color: #919395;
+    background-color: #4810fe;;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.register:hover{
+    background-color: #e5e4fb;
+    color: #4810fe;
 }
 
 .menu-toggle{
@@ -67,25 +72,37 @@
     padding: 60px 90px;
 }
 
-.banner-text{
+.banner-text h5{
     line-height: 1.9;
-    width: 60%;
+    width: 90%;
+    text-align: left;
 }
 
 .banner-btn{
-    width: 80px;
-    height: 30px;
+    width: 25%;
+    height: 20px;
     border: none;
-    background-color: #919395;
+    background-color: #4810fe;
     color: #fff;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px;
+}
+
+.banner-btn:hover{
+    background-color: #f5d1fa;
+    color: #4810fe;
 }
 
 .banner-img {
     display: flex;
     justify-content: flex-end;
+    width: 100%;
 }
 
 .banner-img img {
